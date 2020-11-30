@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "provacalcolocomputazionale", "provacalcolocomputazionale\provacalcolocomputazionale.csproj", "{BEC929B6-DEFA-4253-96CA-B9F8905D7B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestione", "gestione\Gestione.csproj", "{E091B54E-B22D-43CD-954B-8C17760B7F6B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC929B6-DEFA-4253-96CA-B9F8905D7B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC929B6-DEFA-4253-96CA-B9F8905D7B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC929B6-DEFA-4253-96CA-B9F8905D7B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC929B6-DEFA-4253-96CA-B9F8905D7B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E091B54E-B22D-43CD-954B-8C17760B7F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E091B54E-B22D-43CD-954B-8C17760B7F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E091B54E-B22D-43CD-954B-8C17760B7F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E091B54E-B22D-43CD-954B-8C17760B7F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
